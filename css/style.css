@@ -1,0 +1,28 @@
+
+h1 {
+    text-align: center;
+    color: rgb(87, 68, 168);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    margin: auto;
+}
+.gallery a {
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.gallery a:hover {opacity: 0.7;}
+.gallery a img {
+    box-shadow: 0 0 20px -5px rgba(0,0,0,0.75);
+}
+
+.upload_form {
+    padding-top: 50px;
+    text-align: center;
+}
